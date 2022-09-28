@@ -23,7 +23,7 @@ df = pd.read_csv('gapminder.tsv', sep='\t')
 # print(df.info())
 
 # Obtem somente a coluna country e a salva em sua própria variável
-#country_df = df['country']
+# country_df = df['country']
 
 # Mostra as 5 primeiras observações
 # print(country_df.head())
@@ -44,10 +44,10 @@ df = pd.read_csv('gapminder.tsv', sep='\t')
 
 # Obtem a última linha corretamente
 # Usa o primeiro valor dado por shape para obter o numero de linhas
-number_of_rows = df.shape[0]
+# number_of_rows = df.shape[0]
 
 # Subtrai 1 do valor pois queremos o valor do último indice
-last_row_index = number_of_rows - 1
+# last_row_index = number_of_rows - 1
 
 # Obtem o subconjunto usando o índice da última linha
 # print(df.loc[last_row_index])
@@ -57,10 +57,10 @@ last_row_index = number_of_rows - 1
 # print(df.tail(n=1))
 
 # Observe que, quando usamos tail() e loc, os resultados foram exibidos de
-# modo diferente. Vamos observar o tipo devolvido para cada metodo.
-subset_loc = df.loc[0]
-subset_iloc = df.iloc[0]
-subset_head = df.head(n=1)
+# modo diferente. Vamos observar o tipo devolvido para cada metodo.#
+# subset_loc = df.loc[0]
+# subset_iloc = df.iloc[0]
+# subset_head = df.head(n=1)
 
 # type usando loc para uma linha
 # print(type(subset_loc))
@@ -92,7 +92,7 @@ subset_head = df.head(n=1)
 # obtendo um subconjunto de colunas com loc
 # observe a posição dos dois-pontos
 # ele é usado para selecionar todas as linhas
-subset = df.loc[:, ['year', 'pop']]
+# subset = df.loc[:, ['year', 'pop']]
 # print(subset.head())
 
 # obtendo um subconjunto de colunas com iloc
