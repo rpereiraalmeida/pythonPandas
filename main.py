@@ -1,3 +1,5 @@
+## Arquivo de estudo do livro: "Análise de Dados com Python e Pandas"
+
 import pandas as pd
 
 # Por padrão a função read_csv lerá um arquivo separado por virgula
