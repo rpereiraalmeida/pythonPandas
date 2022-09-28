@@ -23,7 +23,7 @@ df = pd.read_csv('gapminder.tsv', sep='\t')
 # print(df.info())
 
 # Obtem somente a coluna country e a salva em sua própria variável
-country_df = df['country']
+#country_df = df['country']
 
 # Mostra as 5 primeiras observações
 # print(country_df.head())
