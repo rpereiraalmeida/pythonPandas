@@ -1,13 +1,9 @@
-/home/crodrigo/PycharmProjects/pythonProject/gapminder-main/inst/
-
-/home/crodrigo/PycharmProjects/pythonProject/gapminder-main/inst/extdata
-
 import pandas as pd
 
 # Por padrão a função read_csv lerá um arquivo separado por virgula
 # nossos dados Gapminder estão separados com tabulações
 # podemos usar o parâmetro sep e representar uma tabulação \t
-df = pd.read_csv('./gapminder-main/inst/extdata/gapminder.tsv', sep='\t')
+df = pd.read_csv('gapminder.tsv', sep='\t')
 
 # Usamos o método head para que Python nos mostre apenas as 5 primeiras linhas
 # print(df.head())
